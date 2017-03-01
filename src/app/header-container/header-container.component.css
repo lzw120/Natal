@@ -1,0 +1,50 @@
+.header-container {
+  display: flex;
+}
+
+.header-container .header-title {
+  flex-grow: 1;
+  color: seagreen;
+  font-size: 40px;
+}
+
+.header-container .search-box {
+  flex-grow: 1;
+}
+
+.header-container .search-box .box-content {
+  float: right;
+  display: flex;
+}
+
+.header-container .search-box .box-content .sign-up {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.header-container .search-box .box-content .sign-up a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+.header-container .search-box .box-content .sign-up a:hover {
+  color: green;
+}
+
+.header-container .search-box .box-content .search-input {
+  flex-grow: 1;
+}
+
+.header-container .search-box .box-content .search-icon {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}

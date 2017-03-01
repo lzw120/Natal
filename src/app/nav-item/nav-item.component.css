@@ -1,0 +1,13 @@
+.nav-item {
+  flex: 1;
+  margin: 0 5px 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: lightslategray;
+  overflow: auto;
+}
+
+.nav-item:hover {
+  color: black;
+  font-weight: 400;
+}

@@ -1,0 +1,11 @@
+.nav-container {
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: lightslategrey;
+  display: flex;
+  overflow: auto;
+  height: 30px;
+  margin: 5px 0 5px 0;
+  padding-top: 10px;
+}
